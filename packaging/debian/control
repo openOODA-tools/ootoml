@@ -1,0 +1,14 @@
+Source: ootoml
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: ootoml
+Architecture: amd64
+Depends: libc6
+Description: TOML ENGINE
+ TOML 1.0 parser and serializer for declarative config inspection and mutation.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
